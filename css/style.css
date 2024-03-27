@@ -1,0 +1,59 @@
+:root{
+    --bluebg : #1389b2;
+    --fizzbuzz : #f0466f;
+    --fizz : #0bd6a1;
+    --buzz : #ffd166;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.wht{
+    color: white;
+}
+
+.buzz{
+    background-color: var(--buzz);
+}
+
+.fizz{
+    background-color: var(--fizz);
+}
+
+.fizzbuzz{
+    background-color: var(--fizzbuzz);
+}
+
+.container{
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: var(--bluebg);
+}
+
+
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: white;
+}
+
+
+.row{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
