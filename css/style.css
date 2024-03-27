@@ -1,8 +1,9 @@
 :root{
-    --bluebg : #1389b2;
+    --boxbg : #1389b2;
     --fizzbuzz : #f0466f;
     --fizz : #0bd6a1;
     --buzz : #ffd166;
+    --bluebg : #083b4c;
 }
 
 *{
@@ -18,6 +19,11 @@
 .wht{
     color: white;
 }
+
+.bux{
+    background-color: var(--boxbg);
+}
+
 
 .buzz{
     background-color: var(--buzz);
